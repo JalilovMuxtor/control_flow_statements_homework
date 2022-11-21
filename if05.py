@@ -15,5 +15,5 @@ def main(a,b,c):
     if a<0 and b>0 and c>0 or a>0 and b>0 and c<0 or a>0 and b<0 and c>0:
         return 1
     else:
-        return 1
+        return 0
 print(main(2,-5,-6))
